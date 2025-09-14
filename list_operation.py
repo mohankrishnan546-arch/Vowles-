@@ -1,0 +1,10 @@
+fruits = ["apple", "banana", "cherry", "apple", "mango"]
+print("Original List:", fruits)
+apple_count = fruits.count("apple")
+print("Number of 'apple':", apple_count)
+length = len(fruits)
+print("Length of list:", length)
+fruits.reverse()
+print("Reversed List:", fruits)
+fruits_copy = fruits.copy()
+print("Copied List:", fruits_copy)
